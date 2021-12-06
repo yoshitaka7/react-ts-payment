@@ -19,6 +19,7 @@ const useStyles = makeStyles(() => ({
   }
 }))
 
+//props型定義
 interface CartProps {
   cartItems: CartItemType[]
   totalCost: number

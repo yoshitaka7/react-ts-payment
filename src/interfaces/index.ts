@@ -1,3 +1,5 @@
+//出品するものとカートに入れる物の型定義
+
 export interface Product {
   id: number
   title: string

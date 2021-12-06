@@ -19,6 +19,7 @@ const useStyles = makeStyles(() => ({
   }
 }))
 
+//props型定義
 interface CartItemProps {
   id: number | undefined
   title: string | undefined

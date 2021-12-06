@@ -26,6 +26,7 @@ const App: React.FC = () => {
 
   const [cartItems, setCartItems] = useState<CartItemType[]>([])
 
+  //カート追加時
   const handleAddToCart = (id: number) => {
     setCartItems((cartItems: CartItemType[]) => {
       const cartItem = cartItems.find((item) => item.id === id)

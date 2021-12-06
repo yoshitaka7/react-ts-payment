@@ -36,6 +36,7 @@ const useStyles = makeStyles(() => ({
   }
 }))
 
+//props型定義
 interface ProductProps {
   handleAddToCart: React.MouseEventHandler<HTMLButtonElement> | undefined
   price: number
